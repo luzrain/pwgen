@@ -1,9 +1,9 @@
 {
-    "name": "roderik/pwgen-php",
+    "name": "luzrain/pwgen",
+    "description": "PWGen is a library which aims to clone the GNU pwgen functionality.",
+    "keywords": ["pwgen", "password", "generator"],
     "type": "library",
-    "description": "pwgen-php is a simple PHP class which aims to clone the GNU pwgen functionality.",
-    "keywords": ["password", "generator"],
-    "license": "GPL",
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "Theodore Ts'o",
@@ -15,15 +15,19 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3"
-    },
-    "autoload": {
-        "psr-4": { "PWGen\\": "src/" }
-    },
-    "autoload-dev": {
-        "psr-4": { "PWGen\\Tests\\": "tests/PWGen" }
+        "php": ">=8.0.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5"
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "PWGen\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PWGen\\Tests\\": "tests/"
+        }
     }
 }

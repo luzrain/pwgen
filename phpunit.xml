@@ -1,19 +1,8 @@
 <?xml version="1.0"?>
-<phpunit bootstrap="tests/bootstrap.php"
-         colors="true"
-         syntaxCheck="true"
->
-
+<phpunit colors="true">
     <testsuites>
         <testsuite name="PWGen password generator">
-            <directory>./tests/PWGen</directory>
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
-
-    <filter>
-        <whitelist>
-            <directory suffix=".php">src</directory>
-        </whitelist>
-    </filter>
-
 </phpunit>
