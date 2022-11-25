@@ -1,5 +1,8 @@
 # PWGen — generate pronounceable passwords with PHP
 
+[![PHP >= 8.0.0](https://img.shields.io/badge/PHP-%3E=8.0.0-777bb3.svg?style=flat)](https://www.php.net/releases/8.0/)
+[![Tests Status](https://img.shields.io/github/workflow/status/luzrain/pwgen/Tests/master?label=Tests)](https://github.com/luzrain/pwgen/actions/workflows/tests.yaml)
+
 PWGen is a library which aims to clone the GNU pwgen functionality.
 The PWGen library generates passwords which are designed to be easily memorized by humans, while being as secure as possible.
 Human-memorable passwords are never going to be as secure as completely random passwords.
